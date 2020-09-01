@@ -122,5 +122,47 @@ main {
       border-radius: 4px;
       text-align: left;
     }
+
+    // Skills
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      width: 100%;
+
+      .lang-container {
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        margin: 20px auto;
+        padding: 10px;
+      }
+
+      @media (max-width: 768px) {
+        .lang-container {
+          width: 100%;
+        }
+      }
+      .icon-ct {
+        margin-right: 20px;
+      }
+
+      .lang-icon {
+        height: 48px;
+        width: 48px;
+      }
+
+      .skill-title {
+        width: 100%;
+      }
+
+      .skill-ct {
+        align-items: center;
+        display: flex;
+        width: 100%;
+      }
+      .skill-txt {
+        font-weight: 500;
+      }
+    }
   }
 }
