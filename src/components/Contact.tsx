@@ -4,7 +4,13 @@ const Contact = () => {
   return (
     <div className="section contact">
       <h2 id="contact">Contact Me</h2>
-      <div className="project"></div>
+      <h3 className="text" style={{ marginBottom: "100px" }}>
+        For all inquiries concerning software engineering, sports, or otherwise{" "}
+        email me at{" "}
+        <a className="email" href="mailto:MarvinJGay@protonmail.com">
+          MarvinJGay@protonmail.com
+        </a>
+      </h3>
     </div>
   )
 }
