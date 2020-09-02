@@ -117,14 +117,56 @@ main {
 
     .project {
       display: flex;
+      justify-content: stretch;
       width: 80%;
-      margin: 4vh auto;
+      margin: 40px auto;
       background-color: #fff;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
       overflow: hidden;
       border-radius: 4px;
       text-align: left;
+    }
+    // Portfolio
+    .project-sample {
+      height: 100%;
+      width: 100%;
+      min-width: 480px;
+    }
+
+    .info-ct {
+      display: flex;
+      flex-wrap: wrap;
+      margin: 0 20px;
+
+      .info-title {
+        width: 100%;
+      }
+      .url {
+        color: #5a5959;
+        cursor: pointer;
+        font-size: 16px;
+        height: 20px;
+        vertical-align: middle;
+        text-decoration: none;
+        text-transform: uppercase;
+      }
+
+      .url:hover {
+        color: #6080e9;
+      }
+      .text {
+        margin-bottom: 40px;
+      }
+    }
+
+    .img-ct {
+      width: 70%;
+    }
+
+    .links-ct {
+      display: flex;
+      margin-bottom: auto;
     }
 
     // Skills
