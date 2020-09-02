@@ -9,6 +9,10 @@ body {
   background-color: white;
 }
 
+.heading {
+  margin-bottom: 40px;
+}
+
 // Header styles
 header {
   display: flex;
@@ -112,10 +116,9 @@ main {
     }
 
     .project {
-      display: inline-block;
-      height: 400px;
+      display: flex;
       width: 80%;
-      margin: 4vh 0;
+      margin: 4vh auto;
       background-color: #fff;
       box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14),
         0 1px 5px 0 rgba(0, 0, 0, 0.12), 0 3px 1px -2px rgba(0, 0, 0, 0.2);
@@ -163,6 +166,27 @@ main {
       }
       .skill-txt {
         font-weight: 500;
+      }
+    }
+
+    // About Me
+    .about-me {
+      font-size: 1.35rem;
+      font-weight: 500;
+      padding: 15px;
+    }
+    .about-img {
+      min-width: 150px;
+      width: 25%;
+    }
+    @media (max-width: 768px) {
+      .project {
+        flex-wrap: wrap;
+        width: 100%;
+      }
+      .about-img {
+        margin: 10px auto;
+        width: auto;
       }
     }
   }

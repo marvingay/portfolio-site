@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
         Skills
       </a>
       <a id="nav-about" href="#about">
-        About
+        About Me
       </a>
       <a id="nav-contact" href="#contact">
         Contact
