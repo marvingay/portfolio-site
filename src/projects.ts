@@ -28,6 +28,6 @@ export const projects = [
     
     `,
     achievement:
-      "I am a Core Team member managing the project's GitHub, as well as write lessons and help students in our Discord community of over 25,000. I have written, vetted, and quality assured our upcoming React course material and help maintain our Discord.js bot.",
+      "I am a Core Team member. I help manage the project's GitHub repositories, as well as write lessons and help students in our Discord community of over 25,000. I have written, vetted, and quality assured our upcoming React course material and help maintain our Discord.js bot.",
   },
 ]

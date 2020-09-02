@@ -130,12 +130,6 @@ main {
       text-align: left;
     }
 
-    @media (max-width: 768px) {
-      .info-ct {
-        width: 100%;
-      }
-    }
-
     .project-sample {
       height: 100%;
       width: 100%;
@@ -168,6 +162,7 @@ main {
       }
       .text {
         margin-bottom: 20px;
+        word-wrap: normal;
       }
     }
 
@@ -181,6 +176,15 @@ main {
       margin-bottom: auto;
     }
 
+    @media (max-width: 812px) {
+      .info-ct {
+        width: 100%;
+      }
+      .project-sample {
+        min-width: 0;
+        width: 98vw;
+      }
+    }
     // Skills
     .skills-container {
       display: flex;
@@ -195,7 +199,7 @@ main {
         padding: 10px;
       }
 
-      @media (max-width: 768px) {
+      @media (max-width: 812px) {
         .lang-container {
           width: 100%;
         }
@@ -233,7 +237,7 @@ main {
       min-width: 150px;
       width: 25%;
     }
-    @media (max-width: 768px) {
+    @media (max-width: 812px) {
       .project {
         flex-wrap: wrap;
         width: 100%;
