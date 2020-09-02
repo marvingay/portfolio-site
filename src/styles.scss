@@ -116,6 +116,7 @@ main {
       font-size: 1.5em;
     }
 
+    // Portfolio
     .project {
       display: flex;
       justify-content: stretch;
@@ -128,7 +129,13 @@ main {
       border-radius: 4px;
       text-align: left;
     }
-    // Portfolio
+
+    @media (max-width: 768px) {
+      .info-ct {
+        width: 100%;
+      }
+    }
+
     .project-sample {
       height: 100%;
       width: 100%;
@@ -143,18 +150,21 @@ main {
       .info-title {
         width: 100%;
       }
-      .url {
+      .url a {
         color: #5a5959;
         cursor: pointer;
         font-size: 16px;
         height: 20px;
         vertical-align: middle;
-        text-decoration: none;
         text-transform: uppercase;
       }
 
-      .url:hover {
+      .url a:hover {
         color: #6080e9;
+      }
+
+      .url a:visited {
+        color: #5a5959;
       }
       .text {
         margin-bottom: 20px;
