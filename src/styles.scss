@@ -17,12 +17,12 @@ body {
 header {
   display: flex;
   align-items: center;
-  min-height: 61.8vh;
+  min-height: 60%;
 
   .nav {
     display: flex;
     width: 100%;
-    padding-top: 2vh;
+    padding-top: 20px;
     text-align: center;
     justify-content: center;
     box-sizing: initial;
@@ -72,7 +72,7 @@ header {
         width: 100%;
       }
       .subtitle {
-        margin: 1vh 0;
+        margin: 10px 0;
         font-size: 1rem;
       }
     }
