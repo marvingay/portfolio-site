@@ -38,7 +38,9 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
             </h4>
           )}
         </div>
-        <p className="text">{description}</p>
+        <div>
+          <p className="text">{description}</p>
+        </div>
         {achievement && <p className="text">{achievement}</p>}
       </div>
     </div>
