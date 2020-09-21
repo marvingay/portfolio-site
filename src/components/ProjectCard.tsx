@@ -28,13 +28,18 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         </div>
         <div className="links-ct">
           <h4 className="url" style={{ marginRight: "20px" }}>
-            <a href={`https://${url}`} target="_blank">
+            <a href={`https://${url}`} rel="noopener" target="_blank">
               {url}
             </a>
           </h4>
           {codeUrl && (
             <h4 className="url">
-              <a href={`https://github.com/marvingay/${codeUrl}`}>View Code</a>
+              <a
+                href={`https://github.com/marvingay/${codeUrl}`}
+                rel="noopener"
+              >
+                View Code
+              </a>
             </h4>
           )}
         </div>
