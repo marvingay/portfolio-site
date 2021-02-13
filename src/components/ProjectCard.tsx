@@ -6,7 +6,6 @@ interface ProjectCardProps {
   url: string
   codeUrl?: string
   description: string
-  achievement: string | null
 }
 
 const ProjectCard: React.FC<ProjectCardProps> = ({
@@ -15,7 +14,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
   url,
   codeUrl,
   description,
-  achievement,
 }) => {
   return (
     <div className="project">
@@ -46,7 +44,6 @@ const ProjectCard: React.FC<ProjectCardProps> = ({
         <div>
           <p className="text">{description}</p>
         </div>
-        {achievement && <p className="text">{achievement}</p>}
       </div>
     </div>
   )

@@ -15,7 +15,6 @@ const Portfolio: React.FC = () => {
           url={p.url}
           codeUrl={p.codeUrl}
           description={p.description}
-          achievement={p.achievement ? p.achievement : null}
         />
       ))}
     </div>
